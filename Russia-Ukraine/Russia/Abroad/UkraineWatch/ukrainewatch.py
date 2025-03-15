@@ -11,7 +11,7 @@ load_dotenv()
 API_ID = os.getenv('TELEGRAM_API_ID')
 API_HASH = os.getenv('TELEGRAM_API_HASH')
 CHANNEL_NAME = '@ukraine_watch'
-START_DATE = datetime(2022, 2, 24, tzinfo=timezone.utc)
+START_DATE = datetime(2023, 3, 16, tzinfo=timezone.utc)
 END_DATE = datetime(2025, 2, 25, tzinfo=pytz.timezone('Europe/Kiev'))
 KEYWORDS =  [
     'Russia', 'Moscow', 'Kremlin', 'Donbas', 'Donetsk', 'Luhansk', 'Putin', 'Medvedev', 'Lavrov', 'Belousov', 
